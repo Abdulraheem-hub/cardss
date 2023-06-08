@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: blanchedalmond;
+    font-family: 'Cinzel', serif;
+}
+
+body{
+    background: rgb(21, 29, 46);
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 70vh;
+    background-color: rgb(40, 69, 70);
+    margin: 150px 50px ;
+    border-radius: 15px;
+    overflow:hidden;
+    transition: .5s;
+}
+
+.card-img{
+    height: 35vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    transition: .5s;
+}
+
+.card-1{
+    background-image: url(https://w0.peakpx.com/wallpaper/698/192/HD-wallpaper-nature-nature-thumbnail.jpg);
+}
+.card-2{
+    background-image: url(https://www.hdwallpapers.in/thumbs/2023/beautiful_chubby_blue_short_sharp_beak_bird_blur_background_wallpaper_hd_birds-t1.jpg);
+}
+.card-3{
+    background-image: url(https://wallpapercave.com/wp/wp6124195.jpg);
+}
+
+h2{
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 3px rgb(174, 174, 238);
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    padding: 8px;
+}
+.card:hover{
+    box-shadow: 0px 5px 10px rgb(174, 174, 238) ;
+    transform: scale(1.1);
+
+}
+.card-img:hover{
+    box-shadow: 0px 5px 10px rgb(174, 174, 238) ;
+    transform: scale(1.1);
+
+
+}
